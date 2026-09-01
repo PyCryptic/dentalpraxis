@@ -1,0 +1,45 @@
+[
+    {
+        "id": "zfa-ausbildung-2027",
+        "active": true,   
+        "title": "Ausbildung zur/zum Zahnmedizinischen Fachangestellten (ZFA)",
+        "shortTitle": "Ausbildung ZFA",
+        "start": "01.09.2027",
+        "location": "Bad Rappenau",
+        "type": "Ausbildung",
+        "employment": "Vollzeit",
+        "schoolDegree": "Hauptschulabschluss",
+        "school": "Peter-Bruckmann-Schule",
+        "schoolLocation": "Heilbronn",
+
+        "description": "Wir sind eine moderne, qualitätsorientierte und innovative Zahnarztpraxis mit einem umfassenden Behandlungsspektrum im Kurort Bad Rappenau.",
+
+        "requirements": [
+            "Freundliche und kommunikative Art",
+            "Zuverlässigkeit und gepflegtes Auftreten",
+            "Gute Deutschkenntnisse in Wort und Schrift",
+            "Gute Feinmotorik",
+            "Interesse an der Ausbildung zur/zum ZFA"
+        ],
+
+        "benefits": [
+            "Junge, innovative und moderne Praxis",
+            "Neueste Medizintechnik",
+            "Tolles Arbeitsklima",
+            "Umfangreiches Behandlungsspektrum",
+            "Fortbildungsmöglichkeiten"
+        ],
+
+        "application": {
+            "email": "varich@gmx.de",
+            "documents": [
+                "Lebenslauf",
+                "Zeugnis"
+            ],
+            "company": "Praxis Alexander Varich",
+            "street": "Am Schafgarten 1",
+            "postalCode": "74906",
+            "city": "Bad Rappenau"
+        }
+    }
+]

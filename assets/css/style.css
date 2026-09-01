@@ -1,0 +1,87 @@
+  :root {
+      --praxis-teal: #1a3a4a;
+      --praxis-accent: #d4a373;
+  }
+
+  body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8fafc;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+      font-family: 'Playfair Display', serif;
+  }
+
+  .view-section {
+      display: none;
+  }
+
+  .view-section.active {
+      display: block;
+  }
+
+  
+
+  /* Luxury underline effect */
+  .nav-link {
+      position: relative;
+  }
+
+  /*Nav*/
+  .nav-link::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -4px;
+      left: 0;
+      background-color: var(--praxis-accent);
+      transition: width 0.3s ease;
+  }
+
+  .nav-link:hover::after {
+      width: 100%;
+  }
+
+
+
+.slider-container {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.slider-track {
+    display: flex;
+}
+.slide {
+    min-width: 100%;
+    scroll-snap-align: center;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; 
+}
+/* Desktop größer */
+@media (min-width: 640px) {
+    .slide img {
+        height: 60vh;
+    }
+}
+
+/* Große Screens */
+@media (min-width: 1024px) {
+    .slide img {
+        height: 70vh;
+    }
+}
+
+/* Scrollbar weg */
+.slider-container::-webkit-scrollbar {
+    display: none;
+}
