@@ -1,0 +1,486 @@
+# Rasiel Moser Attribution License 1.0
+
+Copyright © 2026 Rasiel Moser
+All rights reserved except as expressly granted under this license.
+
+## 1. Urheber
+
+Urheber und ursprünglicher Entwickler der unter dieser Lizenz veröffentlichten Software ist:
+
+**Rasiel Moser**
+
+Alle Urheberrechte am ursprünglichen Quellcode verbleiben bei Rasiel Moser.
+
+Diese Lizenz überträgt keine Urheberrechte. Sie gewährt ausschließlich die nachfolgend beschriebenen Nutzungsrechte.
+
+## 2. Geltungsbereich
+
+Diese Lizenz gilt für sämtliche Dateien, Quellcodes, Module, Funktionen, Klassen, Komponenten, Skripte und sonstigen Softwarebestandteile, die ausdrücklich mit einem Hinweis auf die:
+
+**Rasiel Moser Attribution License 1.0**
+
+versehen wurden.
+
+Die Lizenz gilt insbesondere für:
+
+* JavaScript-Dateien
+* HTML-bezogene JavaScript-Komponenten
+* Frontend-Skripte
+* Backend-Skripte
+* Module
+* Bibliotheken
+* Funktionen
+* Klassen
+* Benutzeroberflächenlogik
+* Barrierefreiheitsfunktionen
+* Slider
+* Navigationen
+* Animationen
+* Interaktionslogik
+* Hilfsfunktionen
+* abgeleitete Softwarebestandteile
+
+## 3. Erlaubte Nutzung
+
+Der Quellcode darf grundsätzlich für private, geschäftliche, kommerzielle und nichtkommerzielle Zwecke verwendet werden.
+
+Dies umfasst insbesondere das Recht, den Quellcode:
+
+* auszuführen,
+* zu verwenden,
+* zu kopieren,
+* zu verändern,
+* zu erweitern,
+* anzupassen,
+* mit anderem Quellcode zu verbinden,
+* in eigene Projekte zu integrieren,
+* weiterzugeben,
+* zu veröffentlichen,
+* zu hosten,
+* in Websites einzusetzen,
+* in Webanwendungen einzusetzen,
+* in Softwareprodukten einzusetzen und
+* in kommerziellen Projekten einzusetzen.
+
+Diese Rechte gelten ausschließlich unter Einhaltung aller Bedingungen dieser Lizenz.
+
+## 4. Verpflichtende Namensnennung
+
+Die Nutzung des Quellcodes ist nur zulässig, wenn Rasiel Moser als ursprünglicher Autor genannt wird.
+
+Die Namensnennung muss mindestens folgenden Hinweis enthalten:
+
+**Original Author: Rasiel Moser**
+
+Alternativ kann eine gleichwertige Formulierung verwendet werden, zum Beispiel:
+
+**Original code by Rasiel Moser**
+
+oder:
+
+**Originally developed by Rasiel Moser**
+
+oder:
+
+**Software component originally developed by Rasiel Moser**
+
+Die Namensnennung darf nicht so verändert werden, dass die ursprüngliche Urheberschaft nicht mehr eindeutig erkennbar ist.
+
+## 5. Copyright-Hinweis
+
+Der folgende Copyright-Hinweis muss erhalten bleiben:
+
+**Copyright © 2026 Rasiel Moser**
+
+Dieser Hinweis darf nicht entfernt, versteckt, unkenntlich gemacht oder durch einen anderen Namen ersetzt werden.
+
+## 6. Lizenzhinweis im Quellcode
+
+Bei Weitergabe des ursprünglichen oder veränderten Quellcodes muss ein Lizenzhinweis erhalten bleiben.
+
+Empfohlener Lizenzheader:
+
+```javascript
+/*
+ * ============================================================
+ *  Rasiel Moser Attribution License 1.0
+ * ============================================================
+ *
+ *  Copyright © 2026 Rasiel Moser
+ *
+ *  Original Author: Rasiel Moser
+ *
+ *  Permission is granted to use, modify, copy and distribute
+ *  this software, including for commercial purposes, provided
+ *  that attribution to the original author is retained.
+ *
+ *  The copyright notice, author attribution and license notice
+ *  must not be removed or concealed.
+ *
+ *  Modified versions must continue to identify Rasiel Moser
+ *  as the original author.
+ *
+ *  See LICENSE.txt for the complete license terms.
+ *
+ * ============================================================
+ */
+```
+
+## 7. Veränderungen des Quellcodes
+
+Der Quellcode darf verändert werden.
+
+Dies umfasst insbesondere:
+
+* Fehlerbehebungen,
+* Erweiterungen,
+* Designanpassungen,
+* Refactoring,
+* Optimierungen,
+* Übersetzungen,
+* Anpassungen an andere Projekte,
+* Änderungen an Funktionen,
+* Änderungen an Benutzeroberflächen und
+* technische Weiterentwicklungen.
+
+Auch bei veränderten Versionen muss Rasiel Moser weiterhin als ursprünglicher Autor genannt werden.
+
+Eine mögliche Kennzeichnung lautet:
+
+**Original Author: Rasiel Moser**
+**Modified by: [Name des Bearbeiters]**
+
+Der Bearbeiter darf seinen eigenen Namen zusätzlich nennen.
+
+Der Name Rasiel Moser darf jedoch nicht entfernt oder ersetzt werden.
+
+## 8. Abgeleitete Werke
+
+Werden wesentliche Teile des Quellcodes in ein neues Projekt übernommen, gilt die Pflicht zur Namensnennung ebenfalls.
+
+Dies gilt auch dann, wenn:
+
+* Variablennamen geändert wurden,
+* Funktionen umbenannt wurden,
+* der Quellcode auf mehrere Dateien verteilt wurde,
+* der Quellcode minimiert wurde,
+* der Quellcode mit anderem Code kombiniert wurde,
+* einzelne Funktionen übernommen wurden,
+* die Struktur angepasst wurde oder
+* eine neue Benutzeroberfläche entwickelt wurde.
+
+Bloße technische Änderungen beseitigen die ursprüngliche Urheberschaft nicht.
+
+## 9. Weitergabe
+
+Bei Weitergabe des Quellcodes oder wesentlicher Teile davon müssen mindestens folgende Informationen erhalten bleiben:
+
+1. der Copyright-Hinweis,
+2. der Name Rasiel Moser,
+3. der Hinweis auf die Rasiel Moser Attribution License 1.0 und
+4. ein Hinweis darauf, wenn der Quellcode verändert wurde.
+
+## 10. Veröffentlichung auf GitHub oder ähnlichen Plattformen
+
+Bei Veröffentlichung auf Plattformen wie:
+
+* GitHub,
+* GitLab,
+* Bitbucket,
+* Codeberg,
+* SourceForge oder
+* vergleichbaren Plattformen
+
+muss entweder der Lizenzheader im Quellcode erhalten bleiben oder eine entsprechende `LICENSE`-Datei im Repository vorhanden sein.
+
+Der ursprüngliche Autor Rasiel Moser muss eindeutig genannt werden.
+
+## 11. Nutzung in Websites
+
+Wird der Quellcode in einer Website verwendet, muss die Urheberangabe mindestens an einer der folgenden Stellen erhalten bleiben:
+
+* im JavaScript-Quellcode,
+* in einer Lizenzdatei,
+* in einer NOTICE-Datei,
+* in einer Credits-Seite,
+* im Impressum,
+* in einer Dokumentationsseite oder
+* in einem vergleichbaren Bereich.
+
+Der Hinweis muss dauerhaft mit dem Projekt verbunden bleiben.
+
+## 12. Sichtbare Namensnennung
+
+Wenn der Quellcode oder eine wesentliche daraus entwickelte Komponente öffentlich eingesetzt wird, kann die Namensnennung beispielsweise folgendermaßen erfolgen:
+
+**Software-Komponenten entwickelt von Rasiel Moser**
+
+oder:
+
+**Original Software Development: Rasiel Moser**
+
+oder:
+
+**JavaScript Development: Rasiel Moser**
+
+Die sichtbare Namensnennung kann beispielsweise im Impressum oder in einem Credits-Bereich erfolgen.
+
+## 13. Kommerzielle Nutzung
+
+Kommerzielle Nutzung ist erlaubt.
+
+Dies umfasst insbesondere:
+
+* Unternehmenswebsites,
+* Kundenprojekte,
+* Agenturprojekte,
+* kostenpflichtige Webanwendungen,
+* SaaS-Angebote,
+* Shopsysteme,
+* kostenpflichtige Softwareprodukte und
+* interne Unternehmenssoftware.
+
+Auch bei kommerzieller Nutzung bleibt die Namensnennung verpflichtend.
+
+## 14. Verkauf von Software
+
+Software, die diesen Quellcode enthält, darf grundsätzlich verkauft werden.
+
+Der Verkauf des Programms oder Projekts führt jedoch nicht dazu, dass das Urheberrecht am ursprünglichen Quellcode übertragen wird.
+
+Rasiel Moser bleibt weiterhin Urheber des ursprünglichen Quellcodes.
+
+## 15. Verbot der Entfernung der Urheberangabe
+
+Es ist ausdrücklich untersagt:
+
+* den Namen Rasiel Moser aus dem Lizenzhinweis zu entfernen,
+* den Copyright-Hinweis zu entfernen,
+* den Lizenzheader absichtlich zu löschen,
+* die ursprüngliche Urheberschaft zu verschleiern,
+* eine andere Person als alleinigen Autor des ursprünglichen Codes auszugeben oder
+* den Eindruck zu erwecken, dass der ursprüngliche Quellcode vollständig von einer anderen Person entwickelt wurde.
+
+## 16. Keine falsche Urheberschaft
+
+Niemand darf behaupten, alleiniger Urheber des unveränderten ursprünglichen Quellcodes zu sein.
+
+Bei umfangreichen Veränderungen darf eine Person selbstverständlich die Urheberschaft an ihren eigenen Änderungen beanspruchen.
+
+Die ursprüngliche Urheberschaft von Rasiel Moser an den übernommenen Bestandteilen bleibt davon unberührt.
+
+## 17. Minifizierter und kompilierter Code
+
+Wird JavaScript minimiert, gebündelt, transpiliert oder anderweitig technisch verarbeitet, muss die Namensnennung weiterhin in geeigneter Form erhalten bleiben.
+
+Dies kann beispielsweise erfolgen durch:
+
+* einen erhaltenen Lizenzkommentar,
+* eine separate LICENSE-Datei,
+* eine NOTICE-Datei oder
+* einen Credits-Bereich.
+
+## 18. Frameworks und Bundler
+
+Diese Regelung gilt auch bei Verwendung von Werkzeugen und Frameworks wie beispielsweise:
+
+* Vite,
+* Webpack,
+* Rollup,
+* Parcel,
+* Next.js,
+* Astro,
+* React,
+* Vue,
+* Angular,
+* Svelte oder
+* vergleichbaren Technologien.
+
+Das technische Bündeln des Quellcodes hebt die Lizenzbedingungen nicht auf.
+
+## 19. Nutzung einzelner Funktionen
+
+Auch einzelne wesentliche Funktionen oder Codebestandteile können unter diese Lizenz fallen.
+
+Wer wesentliche Teile übernimmt, darf die Lizenzbedingungen nicht dadurch umgehen, dass nur einzelne Funktionen kopiert werden.
+
+## 20. Dokumentation
+
+Wird eine Dokumentation zum Projekt erstellt, darf dort zusätzlich folgende Angabe aufgenommen werden:
+
+**Original software components created by Rasiel Moser.**
+
+Dies ersetzt jedoch nicht automatisch erforderliche Lizenzhinweise im Projekt.
+
+## 21. Keine Markenrechte
+
+Diese Lizenz gewährt keine Markenrechte.
+
+Der Name Rasiel Moser darf nur zur ordnungsgemäßen Namensnennung des ursprünglichen Urhebers verwendet werden.
+
+Die Namensnennung darf nicht so dargestellt werden, dass dadurch der Eindruck entsteht, Rasiel Moser würde:
+
+* ein fremdes Produkt unterstützen,
+* für ein fremdes Unternehmen werben,
+* eine veränderte Version empfehlen oder
+* für Änderungen Dritter verantwortlich sein.
+
+## 22. Keine Garantie
+
+Die Software wird ohne Garantie bereitgestellt.
+
+Es wird insbesondere keine Garantie übernommen für:
+
+* Fehlerfreiheit,
+* dauerhafte Funktionsfähigkeit,
+* Kompatibilität,
+* Sicherheit,
+* Verfügbarkeit,
+* Eignung für einen bestimmten Zweck,
+* Datenschutzkonformität,
+* Barrierefreiheit oder
+* wirtschaftlichen Erfolg.
+
+Die Nutzung erfolgt auf eigenes Risiko.
+
+## 23. Haftung
+
+Soweit gesetzlich zulässig, haftet Rasiel Moser nicht für Schäden, die aus der Nutzung, Veränderung, Weitergabe oder Nichtverwendbarkeit der Software entstehen.
+
+Dies umfasst insbesondere:
+
+* Datenverlust,
+* Systemausfälle,
+* entgangene Gewinne,
+* Sicherheitsprobleme,
+* Kompatibilitätsprobleme,
+* Folgeschäden und
+* sonstige mittelbare oder unmittelbare Schäden.
+
+Gesetzlich zwingende Haftungsvorschriften bleiben unberührt.
+
+## 24. Verantwortung für Veränderungen
+
+Personen, die den Quellcode verändern, sind für ihre Änderungen selbst verantwortlich.
+
+Rasiel Moser übernimmt keine Verantwortung für Fehler oder Schäden, die durch Veränderungen Dritter verursacht wurden.
+
+## 25. Datenschutz und rechtliche Anforderungen
+
+Die Verwendung des Quellcodes bedeutet nicht automatisch, dass eine Website oder Anwendung sämtliche rechtlichen Anforderungen erfüllt.
+
+Der jeweilige Betreiber ist selbst verantwortlich für die Einhaltung insbesondere von:
+
+* Datenschutzrecht,
+* Urheberrecht,
+* Verbraucherrecht,
+* Barrierefreiheitsrecht,
+* Telemedienrecht und
+* sonstigen einschlägigen Vorschriften.
+
+## 26. Beendigung des Nutzungsrechts
+
+Bei einem wesentlichen Verstoß gegen diese Lizenzbedingungen kann das gewährte Nutzungsrecht enden.
+
+Dies gilt insbesondere bei:
+
+* vorsätzlicher Entfernung der Namensnennung,
+* Entfernung des Copyright-Hinweises,
+* falscher Behauptung eigener Urheberschaft oder
+* absichtlicher Verschleierung des ursprünglichen Autors.
+
+Nach Beendigung des Nutzungsrechts darf der betreffende Quellcode nicht weiter verwendet oder verbreitet werden, sofern keine erneute Erlaubnis erteilt wurde.
+
+## 27. Wiederherstellung des Nutzungsrechts
+
+Rasiel Moser kann nach eigenem Ermessen die weitere Nutzung wieder gestatten, wenn ein Lizenzverstoß vollständig behoben wurde.
+
+Ein Anspruch darauf besteht nicht.
+
+## 28. Individuelle Lizenzen
+
+Rasiel Moser kann einzelnen Personen, Unternehmen oder Organisationen zusätzliche oder abweichende Nutzungsrechte einräumen.
+
+Solche Vereinbarungen können insbesondere betreffen:
+
+* Nutzung ohne öffentliche Namensnennung,
+* besondere kommerzielle Rechte,
+* White-Label-Projekte,
+* exklusive Nutzung,
+* Weiterverkaufsrechte oder
+* individuelle Unternehmenslizenzen.
+
+Eine individuelle Vereinbarung muss ausdrücklich durch Rasiel Moser erfolgen.
+
+## 29. Keine automatische Übertragung zusätzlicher Rechte
+
+Rechte, die in dieser Lizenz nicht ausdrücklich gewährt werden, verbleiben bei Rasiel Moser.
+
+Insbesondere werden durch diese Lizenz keine ausschließlichen Nutzungsrechte übertragen.
+
+## 30. Lizenzhinweis bei Kopien
+
+Jede vollständige oder wesentliche Kopie des Quellcodes sollte folgenden Hinweis enthalten:
+
+**Copyright © 2026 Rasiel Moser**
+**Licensed under the Rasiel Moser Attribution License 1.0**
+**Original Author: Rasiel Moser**
+
+## 31. Empfohlene NOTICE-Datei
+
+Zusätzlich kann eine Datei namens `NOTICE.txt` verwendet werden.
+
+Beispiel:
+
+```text
+This software contains code originally developed by Rasiel Moser.
+
+Copyright © 2026 Rasiel Moser
+
+Licensed under the Rasiel Moser Attribution License 1.0.
+
+The original author attribution must be retained when this
+software or substantial portions of it are used, modified,
+redistributed or published.
+```
+
+## 32. Empfohlener kurzer Header
+
+Für einzelne JavaScript-Dateien kann alternativ dieser kürzere Hinweis verwendet werden:
+
+```javascript
+/*
+ * Copyright © 2026 Rasiel Moser
+ * Original Author: Rasiel Moser
+ *
+ * Licensed under the Rasiel Moser Attribution License 1.0.
+ * Author attribution and this copyright notice must be retained.
+ *
+ * See LICENSE.txt for full license terms.
+ */
+```
+
+## 33. Lizenzversion
+
+Diese Lizenz trägt die Bezeichnung:
+
+**Rasiel Moser Attribution License 1.0**
+
+Version: 1.0
+Jahr: 2026
+
+## 34. Schlussbestimmung
+
+Die Nutzung des mit dieser Lizenz versehenen Quellcodes setzt die Einhaltung der in dieser Lizenz genannten Bedingungen voraus.
+
+Die wichtigste Voraussetzung ist die Beibehaltung der ursprünglichen Urheberangabe:
+
+**Rasiel Moser**
+
+---
+
+Copyright © 2026 Rasiel Moser
+
+Original Author: Rasiel Moser
+
+Licensed under the Rasiel Moser Attribution License 1.0.

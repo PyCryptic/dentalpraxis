@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="Medic Dentist in Mussterstadt – moderne Zahnmedizin, persönliche Beratung und individuelle Behandlung.">
+    <title>Medic Dentist | Mussterstadt </title>
+    <link rel="stylesheet" href="./assets/css/tailwind.css">
+    <link rel="icon" type="image/png" href="assets/images/icon/icon-A_V.png">
+   <link rel="stylesheet"
+    href="./assets/fontawesome-free-7.3.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+</head>
+
+<body class="text-slate-900 leading-relaxed">
+
+
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 sm:h-24 items-center">
+                <a href="index.html" class="flex flex-col group cursor-pointer no-underline z-50">
+                    <span
+                        class="text-xl sm:text-3xl font-black text-[#1a3a4a] tracking-tighter uppercase italic leading-none">Medic
+                        Dentist</span>
+                    <span class="text-[10px] sm:text-xs font-light tracking-[0.4em] text-[#d4a373] uppercase mt-1">Max
+                        Mustermann</span>
+                </a>
+
+                <div class="hidden lg:flex space-x-8 items-center">
+                    <a href="index.html" class="nav-link text-[#1a3a4a] font-bold text-sm uppercase tracking-widest">
+                        Home
+                    </a>
+
+                    <a href="index.html#philosophie"
+                        class="nav-link text-[#1a3a4a] font-bold text-sm uppercase tracking-widest home-only">
+                        Philosophie
+                    </a>
+
+                    <a href="index.html#team"
+                        class="nav-link text-[#1a3a4a] font-bold text-sm uppercase tracking-widest home-only">
+                        Team
+                    </a>
+
+                      <a href=" Karriere.html"
+                        class="nav-link text-[#1a3a4a] font-bold text-sm uppercase tracking-widest home-only">
+                       Ausbildung & Karriere
+                    </a>
+
+                    <a href="index.html#galerie"
+                        class="nav-link text-[#1a3a4a] font-bold text-sm uppercase tracking-widest home-only">
+                        Galerie
+                    </a>
+
+                    <a href="leistungen.html"
+                        class="nav-link text-[#1a3a4a] font-bold text-sm uppercase tracking-widest home-only">
+                        Leistungen
+                    </a>
+
+                    <a href="Bewertungen.html"
+                        class="nav-link text-[#1a3a4a] font-bold text-sm uppercase tracking-widest home-only">
+                        Bewertungen
+                    </a>
+
+                    <a href="index.html#kontakt"
+                        class="bg-[#1a3a4a] text-white px-6 py-3 rounded-full font-bold text-xs uppercase tracking-widest hover:bg-[#d4a373] transition-all shadow-md home-only">
+                        Kontakt
+                    </a>
+                </div>
+                <div class="lg:hidden z-50">
+                    <button id="mobile-btn" class="text-[#1a3a4a] p-2 text-2xl">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-----Mobiles Nav-->
+        <div id="mobile-menu"
+            class="hidden absolute top-full left-0 w-full lg:hidden bg-white border-t border-slate-100 shadow-2xl overflow-y-auto max-h-[calc(100vh-5rem)]">
+
+            <div class="p-6 flex flex-col space-y-4 text-center">
+
+                <a href="index.html" class="block py-2 text-lg font-bold uppercase text-[#1a3a4a]">
+                    Home
+                </a>
+
+                <a href="index.html#philosophie"
+                    class="block py-2 text-lg font-bold uppercase text-[#1a3a4a] home-only">
+                    Philosophie
+                </a>
+
+                <a href="index.html#team" class="block py-2 text-lg font-bold uppercase text-[#1a3a4a] home-only">
+                    Team
+                </a>
+
+                 <a href=" Karriere.html" class="block py-2 text-lg font-bold uppercase text-[#1a3a4a] home-only">
+                   Ausbildung & Karriere
+                </a>
+
+                <a href="index.html#galerie" class="block py-2 text-lg font-bold uppercase text-[#1a3a4a] home-only">
+                    Galerie
+                </a>
+
+                <a href="leistungen.html" class="block py-2 text-lg font-bold uppercase text-[#1a3a4a] home-only">
+                    Leistungen
+                </a>
+
+                <a href="Bewertungen.html" class="block py-2 text-lg font-bold uppercase text-[#1a3a4a] home-only">
+                    Bewertungen
+                </a>
+
+                <a href="index.html#kontakt" class="block py-2 text-lg font-bold uppercase text-[#1a3a4a] home-only">
+                    Kontakt
+                </a>
+
+                <hr class="border-slate-100 my-2">
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <div id="view-home" class="view-section active">
+            <section id="home" class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+                <div class="absolute inset-0 z-0">
+                    <img src="assets/images/behandlungsraum.webp" alt="Moderner Behandlungsraum"
+                        class="w-full h-full object-cover">
+                    <div>
+                    </div>
+                </div>
+
+                <div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
+                    <div class="max-w-2xl">
+                        <div class="w-16 h-1 bg-[#d4a373] mb-8"></div>
+                        <h1
+                            class="text-4xl sm:text-6xl lg:text-7xl font-black text-[#1a3a4a] mb-6 leading-[1.1] tracking-tight">
+                            Ihr schönstes<br><span
+                                class="text-[#d4a373] font-light italic text-3xl sm:text-5xl lg:text-6xl">Lächeln.</span>
+                        </h1>
+                        <!---     <p
+                            class="text-cyan-800 sm:text-2xl text-slate-800 mb-10 font-light italic max-w-lg leading-relaxed">
+                            Einfühlsame Zahnmedizin in Mussterstadt – Professionell & Angstfrei.
+                        </p>
+                    -->
+                        <!-- <a href="tel:072647733"
+                            class="inline-flex items-center gap-3 px-8 py-4 bg-[#1a3a4a] text-white rounded-full font-bold text-sm sm:text-base uppercase tracking-widest hover:shadow-xl transition-all shadow-md">
+                            <i class="fa-solid fa-phone"></i> 07269 7733
+                        </a> -->
+
+                        <a href="https://wa.me/49160792586" target="_blank" rel="noopener noreferrer"
+                            class="inline-flex items-center gap-3 px-8 py-4 bg-[#25D366] text-white rounded-full font-bold text-sm sm:text-base uppercase tracking-widest hover:shadow-xl transition-all shadow-md">
+
+                            <i class="fa-brands fa-whatsapp"></i>
+                            WhatsApp
+
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!---philosophie Section-->
+            <section id="philosophie" class="py-16 sm:py-24 bg-white overflow-hidden">
+                <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 sm:gap-20 items-center">
+                    <div class="relative group">
+                        <div
+                            class="rounded-[2rem] sm:rounded-[3rem] overflow-hidden shadow-xl transition-all duration-700 group-hover:scale-[1.02]">
+                            <img src="assets/images/Deko.webp" alt="Deko Schmetterling"
+                                class="w-full h-[350px] sm:h-[600px] object-cover">
+                        </div>
+                        <div
+                            class="absolute -bottom-8 -right-8 bg-[#d4a373] p-8 sm:p-10 rounded-[2rem] sm:rounded-[3rem] shadow-xl hidden lg:block max-w-sm">
+                            <p class="text-white text-lg sm:text-xl font-bold italic leading-relaxed">
+                                "Wir nehmen uns Zeit für Ihre Bedürfnisse und begleiten Sie einfühlsam."
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-[#d4a373] font-bold uppercase tracking-[0.5em] text-xs sm:text-sm mb-6">Über
+                            Medic Dentist</h4>
+                        <h2 class="text-3xl sm:text-5xl font-bold text-[#1a3a4a] mb-8 leading-tight">Alexander Varich
+                        </h2>
+                        <div class="space-y-6 text-base sm:text-lg text-slate-600 leading-relaxed font-light">
+                            <p class="italic text-[#1a3a4a] font-normal">
+                                Die Zahnarztpraxis Medic Dentist Max Musstermann in Mussterstadt ist bekannt für ihren
+                                freundlichen und professionellen Umgang mit Patienten.
+                            </p>
+                            <p>
+                                Patienten loben Dr. Varich und sein Team regelmäßig für ihre einfühlsame Behandlung, die
+                                effektive Kommunikation und die ehrliche Beratung.
+                            </p>
+                            <p>
+                                Die Praxis bietet eine angenehme Atmosphäre, die dazu beiträgt, die oft mit
+                                Zahnarztbesuchen verbundene Angst zu lindern.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!---Team Section-->
+            <section id="team" class="py-16 sm:py-24 bg-slate-50">
+                <div class="max-w-7xl mx-auto px-6 text-center mb-16">
+                    <h2 class="text-3xl sm:text-5xl font-bold text-[#1a3a4a] italic">Unser Team</h2>
+                    <div class="w-20 h-1 bg-[#d4a373] mx-auto mt-6"></div>
+                </div>
+                <div class="max-w-7xl mx-auto px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div
+                        class="bg-white rounded-[2rem] overflow-hidden shadow-lg border border-slate-100 group transition-all hover:-translate-y-2">
+                        <div class="h-[300px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=2070&auto=format&fit=crop"
+                                alt=""
+                                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                        </div>
+                        <div class="relative group p-6 text-center">
+
+                            <h3
+                                class="text-xl font-bold text-[#1a3a4a] group-hover:text-[#d4a373] transition-colors duration-300">
+                                Alexander Varich
+                            </h3>
+
+                            <p class="text-[#d4a373] text-[10px] font-bold uppercase tracking-widest mt-2">
+                                Zahnarzt &amp; Inhaber
+                            </p>
+
+                            <!-- Hinweis -->
+                            <p class="mt-3 text-xs text-slate-400 flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-circle-info"></i>
+                                Mehr erfahren
+                            </p>
+
+
+                            <!-- HOVER INFOBOX -->
+                            <div class="absolute left-1/2 bottom-full z-30
+                w-[280px] sm:w-80
+                -translate-x-1/2 mb-3
+                bg-[#1a3a4a] text-white
+                rounded-2xl shadow-2xl
+                p-6 text-left
+                opacity-0 invisible translate-y-3
+                group-hover:opacity-100
+                group-hover:visible
+                group-hover:translate-y-0
+                transition-all duration-300">
+
+                                <!-- kleine Überschrift -->
+                                <span class="text-[#d4a373] text-[10px] font-bold uppercase tracking-[0.2em]">
+                                    Über den Zahnarzt
+                                </span>
+
+                                <h4 class="mt-2 text-lg font-bold">
+                                    Max Mustermann
+                                </h4>
+
+                                <p class="mt-3 text-sm text-slate-300 leading-6">
+                                    Max Mustermann ist Zahnarzt und Inhaber der Praxis
+                                    Medic Dentist in Mussterstadt.
+                                </p>
+
+                                <!-- Pfeil -->
+                                <div class="absolute left-1/2 -bottom-2
+                    w-4 h-4 bg-[#1a3a4a]
+                    -translate-x-1/2 rotate-45">
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white rounded-[2rem] overflow-hidden shadow-lg border border-slate-100 group transition-all hover:-translate-y-2">
+                        <div class="h-[300px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=1974&auto=format&fit=crop"
+                                alt=""
+                                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                        </div>
+                        <div class="relative group p-6 text-center">
+
+                            <h3
+                                class="text-xl font-bold text-[#1a3a4a] group-hover:text-[#d4a373] transition-colors duration-300">
+                                Assistenz
+                            </h3>
+
+                            <p class="text-[#d4a373] text-[10px] font-bold uppercase tracking-widest mt-2 italic">
+                                Medizinisches Team
+                            </p>
+
+                            <!-- Hinweis -->
+                            <p class="mt-3 text-xs text-slate-400 flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-circle-info"></i>
+                                Mehr erfahren
+                            </p>
+
+
+                            <!-- HOVER INFOBOX -->
+                            <div class="absolute left-1/2 bottom-full z-30
+                w-[280px] sm:w-80
+                -translate-x-1/2 mb-3
+                bg-[#1a3a4a] text-white
+                rounded-2xl shadow-2xl
+                p-6 text-left
+                opacity-0 invisible translate-y-3
+                group-hover:opacity-100
+                group-hover:visible
+                group-hover:translate-y-0
+                transition-all duration-300">
+
+                                <span class="text-[#d4a373] text-[10px] font-bold uppercase tracking-[0.2em]">
+                                    Unser Team
+                                </span>
+
+                                <h4 class="mt-2 text-lg font-bold">
+                                    Assistenz
+                                </h4>
+
+                                <p class="mt-3 text-sm text-slate-300 leading-6">
+                                    Unser medizinisches Team unterstützt bei der Betreuung
+                                    unserer Patientinnen und Patienten und sorgt für einen
+                                    angenehmen Ablauf in der Praxis.
+                                </p>
+
+                                <!-- Pfeil -->
+                                <div class="absolute left-1/2 -bottom-2
+                    w-4 h-4 bg-[#1a3a4a]
+                    -translate-x-1/2 rotate-45">
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white rounded-[2rem] overflow-hidden shadow-lg border border-slate-100 group transition-all hover:-translate-y-2">
+                        <div class="h-[300px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+                                alt=""
+                                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                        </div>
+                        <div class="p-6 text-center">
+                            <h3 class="text-xl font-bold text-[#1a3a4a]">Prophylaxe</h3>
+                            <p class="text-[#d4a373] text-[10px] font-bold uppercase tracking-widest mt-2 italic">
+                                Medizinisches Team</p>
+                        </div>
+                    </div>
+
+
+                    <div
+                        class="bg-white rounded-[2rem] overflow-hidden shadow-lg border border-slate-100 group transition-all hover:-translate-y-2">
+                        <div class="h-[300px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+                                alt=""
+                                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                        </div>
+                        <div class="relative group p-6 text-center">
+
+                            <h3
+                                class="text-xl font-bold text-[#1a3a4a] group-hover:text-[#d4a373] transition-colors duration-300">
+                                Mustermann
+                            </h3>
+
+                            <p class="text-[#d4a373] text-[10px] font-bold uppercase tracking-widest mt-2 italic">
+                                Azubi
+                            </p>
+
+                            <!-- Hinweis -->
+                            <p class="mt-3 text-xs text-slate-400 flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-circle-info"></i>
+                                Mehr erfahren
+                            </p>
+
+
+                            <!-- HOVER INFOBOX -->
+                            <div class="absolute left-1/2 bottom-full z-30
+                w-[280px] sm:w-80
+                -translate-x-1/2 mb-3
+                bg-[#1a3a4a] text-white
+                rounded-2xl shadow-2xl
+                p-6 text-left
+                opacity-0 invisible translate-y-3
+                group-hover:opacity-100
+                group-hover:visible
+                group-hover:translate-y-0
+                transition-all duration-300">
+
+                                <span class="text-[#d4a373] text-[10px] font-bold uppercase tracking-[0.2em]">
+                                    Unser Team
+                                </span>
+
+                                <h4 class="mt-2 text-lg font-bold">
+                                    Mustermann
+                                </h4>
+
+                                <p class="mt-3 text-sm text-slate-300 leading-6">
+                                    Als Auszubildender unterstützt Mustermann unser Praxisteam
+                                    im täglichen Praxisablauf und sammelt dabei wertvolle
+                                    Erfahrungen im zahnmedizinischen Bereich.
+                                </p>
+
+                                <!-- Pfeil -->
+                                <div class="absolute left-1/2 -bottom-2
+                    w-4 h-4 bg-[#1a3a4a]
+                    -translate-x-1/2 rotate-45">
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--   <div
+                        class="bg-white rounded-[2rem] overflow-hidden shadow-lg border border-slate-100 group transition-all hover:-translate-y-2">
+                        <div class="h-[300px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2070&auto=format&fit=crop"
+                                alt=""
+                                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                        </div>
+                        <div class="p-6 text-center">
+                            <h3 class="text-xl font-bold text-[#1a3a4a]">Verwaltung</h3>
+                            <p class="text-[#d4a373] text-[10px] font-bold uppercase tracking-widest mt-2 italic">
+                                Medizinisches Team</p>
+                        </div>
+                    </div>
+
+                 <div
+                        class="bg-white rounded-[2rem] overflow-hidden shadow-lg border border-slate-100 group transition-all hover:-translate-y-2">
+                        <div class="h-[300px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2070&auto=format&fit=crop"
+                                alt=""
+                                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                        </div>
+                        <div class="p-6 text-center">
+                            <h3 class="text-xl font-bold text-[#1a3a4a]">Verwaltung</h3>
+                            <p class="text-[#d4a373] text-[10px] font-bold uppercase tracking-widest mt-2 italic">
+                                Lorem Ipsum</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="bg-white rounded-[2rem] overflow-hidden shadow-lg border border-slate-100 group transition-all hover:-translate-y-2">
+                        <div class="h-[300px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2070&auto=format&fit=crop"
+                                alt=""
+                                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                        </div>
+                        <div class="p-6 text-center">
+                            <h3 class="text-xl font-bold text-[#1a3a4a]">Verwaltung</h3>
+                            <p class="text-[#d4a373] text-[10px] font-bold uppercase tracking-widest mt-2 italic">
+                                Lorem Ipsum</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="bg-white rounded-[2rem] overflow-hidden shadow-lg border border-slate-100 group transition-all hover:-translate-y-2">
+                        <div class="h-[300px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2070&auto=format&fit=crop"
+                                alt=""
+                                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                        </div>
+                        <div class="p-6 text-center">
+                            <h3 class="text-xl font-bold text-[#1a3a4a]">Verwaltung</h3>
+                            <p class="text-[#d4a373] text-[10px] font-bold uppercase tracking-widest mt-2 italic">
+                                Lorem Ipsum</p>
+                        </div>
+                    </div>
+                -->
+
+                    <div
+                        class="bg-white rounded-[2rem] overflow-hidden shadow-lg border border-slate-100 group transition-all hover:-translate-y-2">
+                        <div class="h-[300px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2070&auto=format&fit=crop"
+                                alt=""
+                                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                        </div>
+                        <div class="p-6 text-center">
+                            <h3 class="text-xl font-bold text-[#1a3a4a]">Verwaltung</h3>
+                            <p class="text-[#d4a373] text-[10px] font-bold uppercase tracking-widest mt-2 italic">
+                                Lorem Ipsum</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!---Rundgang Section-->
+            <section id="galerie" class="py-12 sm:py-20 bg-white">
+                <div class="max-w-7xl mx-auto px-6 mb-10 text-center">
+                    <h2 class="text-3xl sm:text-5xl font-bold text-[#1a3a4a] italic">
+                        Impressionen der Praxis
+                    </h2>
+                </div>
+
+                <div class="max-w-6xl mx-auto relative px-4">
+
+                    <div class="slider-container relative rounded-2xl overflow-hidden shadow-lg">
+
+                        <div class="slider-track flex" id="sliderTrack">
+
+                            <div class="slide">
+                                <img src="./assets/images/behandlungsraum.webp" alt="Behandlungsraum"
+                                    class="w-full h-[300px] sm:h-[450px] lg:h-[550px] object-cover">
+                            </div>
+
+                            <div class="slide">
+                                <img src="./assets/images/gardarobe.webp" alt="Garderobe"
+                                    class="w-full h-[300px] sm:h-[450px] lg:h-[550px] object-cover">
+                            </div>
+
+                            <div class="slide">
+                                <img src="./assets/images/PraxisFlur.webp" alt="Praxisflur"
+                                    class="w-full h-[300px] sm:h-[450px] lg:h-[550px] object-cover">
+                            </div>
+
+                            <div class="slide">
+                            <!--    <img src="./assets/images/visitenkarte.webp" alt="Visitenkarte"
+                                    class="w-full h-[300px] sm:h-[450px] lg:h-[550px] object-cover"> -->
+                            </div>
+
+                        </div>
+
+
+                        <!-- Pfeil links -->
+                        <button id="prevBtn" type="button" aria-label="Vorheriges Bild" class="absolute left-3 sm:left-5 top-1/2 -translate-y-1/2
+                   w-10 h-10 sm:w-12 sm:h-12
+                   rounded-full bg-white/90 backdrop-blur
+                   shadow-lg
+                   flex items-center justify-center
+                   text-[#1a3a4a]
+                   hover:bg-[#d4a373] hover:text-white
+                   transition-all duration-300">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" stroke-width="2">
+
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+
+                            </svg>
+
+                        </button>
+
+
+                        <!-- Pfeil rechts -->
+                        <button id="nextBtn" type="button" aria-label="Nächstes Bild" class="absolute right-3 sm:right-5 top-1/2 -translate-y-1/2
+                   w-10 h-10 sm:w-12 sm:h-12
+                   rounded-full bg-white/90 backdrop-blur
+                   shadow-lg
+                   flex items-center justify-center
+                   text-[#1a3a4a]
+                   hover:bg-[#d4a373] hover:text-white
+                   transition-all duration-300">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" stroke-width="2">
+
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+
+                            </svg>
+
+                        </button>
+
+                    </div>
+
+
+                    <!-- Punkte -->
+                    <div id="indicators" class="flex justify-center items-center gap-2 mt-5">
+                    </div>
+
+                </div>
+            </section>
+            <!---Kontakt Section-->
+            <section id="kontakt" class="py-16 sm:py-24 bg-[#1a3a4a] text-white">
+                <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-3 gap-8 sm:gap-12 text-center">
+             <!--   <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x479789999c7ead97:0xea07dc80db38367c?sa=X&amp;ved=1t:8290&amp;ictx=111"
+                        target="_blank" rel="noopener noreferrer" aria-label="Am Schafgarten 1 in Google Maps öffnen"
+                        class="bg-white/5 p-8 sm:p-12 rounded-[2rem] border border-white/10 flex flex-col items-center
+           hover:bg-white/10 hover:border-[#d4a373]/50 hover:-translate-y-1
+           transition-all duration-300 cursor-pointer"> -->
+
+                        <i class="fa-solid fa-location-dot text-[#d4a373] text-4xl mb-6"></i>
+
+                        <p class="text-xl sm:text-2xl font-bold italic leading-tight uppercase">
+                            Am Musterweg 1<br>
+                            74960 Mussterstadt
+                        </p>
+
+                        <span class="mt-4 text-sm text-white/50">
+                            In Google Maps öffnen
+                        </span>
+
+                    </a>
+                    <div
+                        class="bg-white/5 p-8 sm:p-12 rounded-[2rem] border border-white/10 flex flex-col items-center">
+                        <i class="fa-solid fa-phone text-[#d4a373] text-4xl mb-6"></i>
+                        <a href="tel:072647733"
+                            class="text-2xl sm:text-3xl font-black mb-2 hover:text-[#d4a373] transition-colors">0725
+                            77888</a>
+                        <a href="mailto:Mustermann@gmx.de"
+                            class="text-lg italic text-slate-300 hover:text-[#d4a373] transition-colors">
+                            Mustermann@gmx.de
+                        </a>
+                    </div>
+                    <div
+                        class="bg-white/5 p-8 sm:p-12 rounded-[2rem] border border-white/10 flex flex-col items-center">
+                        <i class="fa-solid fa-clock text-[#d4a373] text-4xl mb-6"></i>
+                        <div class="text-base sm:text-lg italic font-medium space-y-1">
+                            <p>Mo - Di: 08:30 – 18:00</p>
+                            <p>Mi: 08:30 – 13:00</p>
+                            <p>Do: 10:00 – 20:00</p>
+                            <p>Fr: 08:30 – 14:00</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-slate-900 text-slate-500 py-16 text-center">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="mb-10">
+                <span class="text-3xl font-bold text-white tracking-widest uppercase italic">
+                    Medic Dentist
+                </span>
+
+                <span class="block text-xs uppercase tracking-[0.4em] text-[#d4a373] font-bold mt-2">
+                    Max Mustermann | Mussterstadt
+                </span>
+            </div>
+
+            <div class="flex justify-center gap-6 mb-6 text-sm">
+                <a href="datenschutz.html" class="hover:text-white transition-colors">
+                    Datenschutz
+                </a>
+
+                <a href="impressum.html" class="hover:text-white transition-colors">
+                    Impressum
+                </a>
+            </div>
+
+            <p class="text-[10px] uppercase tracking-widest opacity-30">
+                &copy; 2026 Max Mustermann. Alle Rechte vorbehalten.
+            </p>
+        </div>
+    </footer>
+
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/nav-toggle.js"></script>
+    <!----Todo Nav korigieren-->
+    <script src=""></script>
+</body>
+
+</html>
