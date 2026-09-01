@@ -1,6 +1,6 @@
 # Medic Dentist – Praxiswebsite
 
-Website der Zahnarztpraxis **Medic Dentist – Alexander Varich** in Bad Rappenau.
+Website der Zahnarztpraxis **Medic Dentist – Max Mustermann** in Mussterstadt.
 
 ## Technologien
 
